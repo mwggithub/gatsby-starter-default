@@ -70,7 +70,7 @@ const moreLinks = [
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const IndexPage = () => (
-  <Layout>
+  <Layout><div>Hi</div>
     <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"
